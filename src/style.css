@@ -288,11 +288,14 @@ body {
 
 @media  (max-width: 800px) {
     .book_display {
-        height:50vh;
+        height:60vh;
+
     }
 
     .pTitle {
-        font-size:3.5vh;
+        font-size:4.5vh;
+        margin: 0px;
+        margin-top:10px;
     }
 
     .info h2 {
@@ -301,17 +304,22 @@ body {
     }
     
     .title_info {
-        padding:2px;
-        font-size: 2.5vw;
+        padding:1px;
+        font-size: 3vw;
     }
     
     .info > * {
         padding: 0px;
-        margin:10px;
+        margin:5px;
     }
 
     .searchIcon {
         transform: scale(0.8);
+    }
+
+    .photo {
+        height:30vh;
+        width:auto;
     }
 
 }
